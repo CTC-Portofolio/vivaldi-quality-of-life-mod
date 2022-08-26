@@ -1,8 +1,6 @@
-# Vivaldi Mod Template
+# Vivaldi Quality of Life Mod
 
-A template for custom UI mods for the Vivaldi Browser
-
-DISCLAIMER: This template is not developed or approved by Vivaldi
+Some changes I made to the browser UI for a more friendly and accessible experience
 
 ## How to install?
 
