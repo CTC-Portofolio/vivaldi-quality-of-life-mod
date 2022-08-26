@@ -4,7 +4,7 @@ A template for custom UI mods for the Vivaldi Browser
 
 DISCLAIMER: This template is not developed or approved by Vivaldi
 
-# How to install?
+## How to install?
 
 After creating a new repository from this mod, you can install your changes by following the steps below:
 
@@ -12,14 +12,21 @@ After creating a new repository from this mod, you can install your changes by f
 - Open Vivaldi Settings > Apperance and in "Custom UI Modifications", select the Mod folder
 - Restart Vivaldi (you can easily do this by going in vivaldi://restart)
 
-# How to inspect the UI
+## Changes
 
-Vivaldi runs inside a react shell. To inspect the css classes and the markup, follow the steps below:
+- Tabs:
+  - Decorates the active tab with a top border 2px height and of the highlight color
+  - Changes the font of the tabs to Inter
+  - It removes the top padding of the tab bar to offer more space
+  - On hover, the cursor changes to pointer
+  - On hover, the hovered tab receives a border top of 2px with the highlight color
+  - The tab stack tooltip now uses the higlight color
 
-- Open vivaldi://inspect/#apps
-- There should be listed every Vivaldi window you have open, with its tabs, in a "tree style" view.
-- Look for the window you want to use as test subject (Vivaldi windows are named Vivaldi with its url being chrome-extension://<something>/browser.html).
-- Hit Inspect under "Vivaldi"
-- This will open the Dev tools, inspecting the UI
+- Sidebar:
+  - It adds the highlight dark color to the sidebar icons on hover
+  - On hover it changes the cursor to pointer
 
-
+- Bookmark bar:
+  - It changes the font to Inter
+  - It changes the the background on hover to a more light variant
+  - It changes the cursor to pointer
