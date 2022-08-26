@@ -1,4 +1,6 @@
 @import './components/address-bar.css';
 @import './components/bookmark-bar.css';
 @import './components/sidebar.css';
-@import './components/tabbar.css'
+@import './components/tabbar.css';
+@import './components/fonts.css';
+@import './components/tooltip.css';

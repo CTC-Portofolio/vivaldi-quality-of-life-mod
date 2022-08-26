@@ -1,3 +1,4 @@
-.panels-container {
-    
+#panels-container #switch > button:hover{
+   background-color: var(--colorHighlightBgDark);
+   cursor: pointer;
 }

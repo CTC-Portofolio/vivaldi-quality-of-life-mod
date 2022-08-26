@@ -1,3 +1,24 @@
-.header {
-    
+#header .tab.active, #header .tab:hover {
+  border-top: 2px solid var(--colorHighlightBg) !important;
+}
+
+#header .tab:hover {
+  cursor: pointer;
+}
+
+#header .tab {
+  font-family: "Inter";
+  border-radius: 0;
+}
+
+#header #tabs-tabbar-container {
+  padding-top: 0;
+}
+
+#header #titlebar .vivaldi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  height: 30px;
 }

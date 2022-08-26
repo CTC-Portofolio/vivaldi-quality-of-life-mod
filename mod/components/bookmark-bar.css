@@ -1,3 +1,8 @@
-.bookmark-bar {
-    
+.bookmark-bar button.bookmarkbarItem {
+    cursor: pointer;
+    font-family: 'Inter' !important;
+}
+
+.bookmark-bar button.bookmarkbarItem:hover {
+    background-color: var(--colorBgFaded);
 }

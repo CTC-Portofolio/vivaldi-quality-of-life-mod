@@ -1,0 +1,3 @@
+#vivaldi-tooltip .tooltip-item.last-active, #vivaldi-tooltip .tooltip-item:hover{
+    background-color: var(--colorHighlightBgDark) !important;
+}
